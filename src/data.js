@@ -176,4 +176,17 @@ export const storeProducts = [
                                                                                     image:"https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",inCart: false,
                                                                                     count:0,
                                                                                     total:0}
-                                                                                ]
+                                                                                ];
+
+                                                                                
+                                                                                export const detailProduct = {
+                                                                                    id:1,
+                                                                                title:"Opna Women's Short Sleeve Moisture",
+                                                                                price:7.95,
+                                                                                description:"100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+                                                                                category:"women clothing",
+                                                                                image:"https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+                                                                                inCart: false,
+                                                                                count:0,
+                                                                                total:0
+                                                                                }                                                                        

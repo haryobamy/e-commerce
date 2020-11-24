@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
-import { ButtonContainer } from './Button'
+import { ButtonContainer } from './Button';
+import logo from '../img/logo.jpg';
 
 
  class Navbar extends Component {
@@ -9,8 +10,10 @@ import { ButtonContainer } from './Button'
         return (
             <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5'>
                 <Link to='/'>
-                    <img src={require("../img/logo.jpg")}
+                    <img src={logo}
                      alt='store'
+                     height={80}
+                     width={70}
                     className='navbar-brand' />
                 </Link>
                 <ul className='navbar-nav align-item-center'>
@@ -22,7 +25,7 @@ import { ButtonContainer } from './Button'
                 </ul>
                 <Link to='/cart' className='ml-auto'>
                     <ButtonContainer>
-                       <span classname='mr-2'> <i className='fas fa-cart-plus'  /></span>
+                       <span className='mr-2'> <i className='fas fa-cart-plus'  /></span>
                        my cart
                     </ButtonContainer>
                 </Link>
