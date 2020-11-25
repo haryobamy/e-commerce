@@ -178,7 +178,7 @@ export const storeProducts = [
                                                                                     total:0}
                                                                                 ];
 
-                                                                                
+
                                                                                 export const detailProduct = {
                                                                                     id:1,
                                                                                 title:"Opna Women's Short Sleeve Moisture",
